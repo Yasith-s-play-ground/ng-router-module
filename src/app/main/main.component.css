@@ -1,0 +1,11 @@
+nav menu li {
+  cursor: pointer;
+
+  &:hover {
+    background-color: lightgray;
+  }
+
+  &.active {
+    background-color: lightblue;
+  }
+}
